@@ -34,12 +34,14 @@
 
 /* MC BATALLA */
 .rblogo {
+    width: 20%;
     padding: 10px; 
     margin: 10px; 
     float: left;
 }
 
 .rblogo2 {
+    width: 20%;
     padding: 10px; 
     margin: 10px;
     float: right;
@@ -111,7 +113,7 @@
     font-family: 'DXS Futura Inline';
     color: white;
     transition-duration: 0.2s;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-right: 300px;
     background-color: #182a4b;
     font-size: 40px;
@@ -134,8 +136,8 @@
 @media screen and (max-width: 768px) {
     .calendario .present {
         font-size: 30px;
-        margin-right:50px;
-        margin-left: 50px;
+        margin-right:90px;
+        margin-left: 90px;
         font-family: 'DXS Futura Inline';
     }
     .calendario img {
@@ -143,14 +145,14 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
     .calendario .present {
         font-size: 30px;
-        margin-right:20px;
-        margin-left: 20px;
+        margin-right:30px;
+        margin-left: 30px;
         font-family: 'DXS Futura Inline';
     }
     .calendario img {
-        margin-left: 70px;
+        margin-left: 75px;
     }
 }
