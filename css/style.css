@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@font-face {
+    font-family: 'DXS Futura Inline';
+    src: url('/fonts/dxs-futura-inline_bigfontsite.com.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*font-family: 'LP Horizont Caps Regular';*/
+
+.nav-bar {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.nav-item .nav-link:hover {
+
+    color: white;
+}
+
+.rblogo {
+    padding: 10px; 
+    margin: 10px; 
+    float: left;
+}
+
+.rblogo2 {
+    padding: 10px; 
+    margin: 10px;
+    float: right;
+}
+
+.logos:hover  {
+    -webkit-transform:scale(1);
+    transform:scale(0.90);
+    transition-duration: 0.5s;
+}
+.logos {
+    overflow:hidden;
+    transition-duration: 0.5s;
+}
+
+.sticky-top {
+    background-color: white;
+}
+
+.mcbatalla {
+    position: relative;
+    top: 100px;
+    font-size: 110px;
+    font-family: 'DXS Futura Inline';
+}
