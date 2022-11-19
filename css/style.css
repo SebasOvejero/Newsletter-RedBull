@@ -21,9 +21,13 @@
     background-color: white;
 }
 
-@media (min-width: 1200px) {
+.navbar-brand {
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
     .search {
-        padding-right: 550px; 
+        padding-right: 500px; 
     }
 }
 
@@ -53,8 +57,15 @@
 
 .mcbatalla {
     font-family: 'DXS Futura Inline';
-    padding-top: 80px;
+    padding-top: 60px;
+    font-size: 100px;
     
+}
+@media (max-width: 768px) {
+    .mcbatalla {
+        font-size: 40px;
+        padding-top: 20px;
+    }
 }
 
 
@@ -68,6 +79,7 @@
 }
 
 .mcs:hover{
+    
     background-color: white;
     color:#cc1c4a;
     transition-duration: 0.2s;
@@ -77,6 +89,7 @@
 
 .calend {
     background-color: #213872;
+    padding-top: 20px;
 }
 
 .calendrb {
@@ -87,13 +100,33 @@
     font-family: 'DXS Futura Inline';
     color: white;
     transition-duration: 0.2s;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: #182a4b;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
 .calendario .present:hover{
     background-color: white;
     transition-duration: 0.2s;
+    color: black;
+}
+
+.calendario img {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 260px;
+}
+
+@media (max-width: 700px) {
+    .calendario .present {
+        font-size: 30px;
+        margin-right:40px;
+        margin-left: 40px;
+    }
+    .calendario img {
+        margin-left: 90px;
+    }
 }
