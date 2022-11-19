@@ -63,6 +63,7 @@
 }
 @media (max-width: 768px) {
     .mcbatalla {
+        font-family: 'DXS Futura Inline';
         font-size: 50px;
         padding-top: 30px;
     }
@@ -125,6 +126,7 @@
         font-size: 30px;
         margin-right:40px;
         margin-left: 40px;
+        font-family: 'DXS Futura Inline';
     }
     .calendario img {
         margin-left: 90px;
