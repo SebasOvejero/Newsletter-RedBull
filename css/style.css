@@ -61,13 +61,23 @@
     font-size: 100px;
     
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
     .mcbatalla {
         font-family: 'DXS Futura Inline';
-        font-size: 50px;
+        font-size: 70px;
         padding-top: 30px;
     }
 }
+
+@media screen and (max-width: 360px){
+    .mcbatalla {
+        font-family: 'DXS Futura Inline';
+        font-size: 30px;
+        padding-top: 25px;
+    }
+}
+
+
 
 
 .container {
@@ -121,14 +131,26 @@
     margin-left: 260px;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .calendario .present {
         font-size: 30px;
-        margin-right:40px;
-        margin-left: 40px;
+        margin-right:50px;
+        margin-left: 50px;
         font-family: 'DXS Futura Inline';
     }
     .calendario img {
-        margin-left: 90px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .calendario .present {
+        font-size: 30px;
+        margin-right:20px;
+        margin-left: 20px;
+        font-family: 'DXS Futura Inline';
+    }
+    .calendario img {
+        margin-left: 70px;
     }
 }
