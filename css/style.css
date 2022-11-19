@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 @font-face {
     font-family: 'DXS Futura Inline';
-    src: url('/fonts/dxs-futura-inline_bigfontsite.com.ttf') format('truetype');
+    src: url('../fonts/dxs-futura-inline_bigfontsite.com.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
 }
