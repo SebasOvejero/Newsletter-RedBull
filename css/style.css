@@ -5,6 +5,12 @@
     font-style: normal;
     font-weight: 400;
 }
+@font-face {
+    font-family: 'FuturaBQ';
+    src: url('../fonts/FuturaBQ-DemiBold.otf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
 
 /*font-family: 'LP Horizont Caps Regular';*/
 
@@ -27,8 +33,95 @@
 
 @media (min-width: 768px) {
     .search {
-        padding-right: 150px; 
+        padding-right: 290px; 
     }
 }
 
 
+/* HEADER */
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align:left
+}
+
+.texto-encima{
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 5px;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    right: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .texto-encima{
+        background-color: rgba(0, 0, 0, 0.87);
+        border-radius: 5px;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        right: 100px;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        color: white;
+    }
+}
+
+@media (max-width: 368px) {
+    .texto-encima{
+        visibility:hidden;
+    }
+}
+
+/* TITTLE & SUBTITTLE */
+.redtittle {
+    background-color: #213874;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+hr {
+    color: #cc1c4a; 
+}
+
+.container .tittle {
+    font-family: 'FuturaBQ';
+    font-size: 70px;
+}
+
+.container p {
+    font-family: 'FuturaBQ';
+}
+
+.container img {
+    position: absolute;
+    width: 25%;
+    right: 10px;
+    top: 650px;
+}
+
+@media screen and (max-width: 768px) {
+    .container img{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .container img{
+        visibility: hidden;
+    }
+}
+
+/* video */
+
+.videocentral {
+    margin-top: 20px;
+    padding: 10 500;
+}
