@@ -103,7 +103,7 @@ hr {
     position: absolute;
     width: 25%;
     right: 10px;
-    top: 760px;
+    top: 780px;
 }
 
 @media screen and (max-width: 768px) {
@@ -118,9 +118,32 @@ hr {
     }
 }
 
+.container hr {
+    height: 10px;
+    background: white;
+    width: 900px;
+}
+
 /* video */
 
 .videocentral {
     margin-top: 20px;
     padding: 10 500;
+}
+
+/* Socials */
+footer {
+    background-color: white;
+    padding: 20px;
+}
+.social {
+    background-color: white;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: #cc1c4a;
+}
+
+.socials:hover {
+
+    background-color: white;
 }
