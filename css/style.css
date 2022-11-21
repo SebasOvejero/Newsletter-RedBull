@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
     font-family: 'DXS Futura Inline';
     src: url('../fonts/dxs-futura-inline_bigfontsite.com.ttf') format('truetype');
@@ -9,8 +9,8 @@
 /*font-family: 'LP Horizont Caps Regular';*/
 
 /* NAVBAR */
-.nav-bar {
-    font-family: 'Barlow Condensed', sans-serif;
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-item .nav-link:hover {
@@ -27,140 +27,8 @@
 
 @media (min-width: 768px) {
     .search {
-        padding-right: 280px; 
+        padding-right: 150px; 
     }
 }
 
 
-/* MC BATALLA */
-.rblogo {
-    width: 200px;
-    padding: 10px; 
-    margin: 10px; 
-    float: left;
-}
-
-.rblogo2 {
-    width: 200px;
-    padding: 10px; 
-    margin: 10px;
-    float: right;
-}
-
-.logos:hover  {
-    -webkit-transform:scale(1);
-    transform:scale(0.90);
-    transition-duration: 0.5s;
-}
-.logos {
-    overflow:hidden;
-    transition-duration: 0.5s;
-}
-
-.mcbatalla {
-    font-family: 'DXS Futura Inline';
-    padding-top: 60px;
-    font-size: 100px;
-}
-
-
-@media screen and (max-width: 768px){
-    .mcbatalla {
-        font-family: 'DXS Futura Inline';
-        font-size: 100px;
-        padding-top: 20px;
-    }
-
-    .rblogo{
-        width: 140px;
-    }
-
-    .rblogo2{
-        width: 140px;
-    }
-}
-
-@media screen and (max-width: 440px){
-    .mcbatalla {
-        font-family: 'DXS Futura Inline';
-        font-size: 40px;
-        padding-top: 25px;
-    }
-
-    .rblogo {
-        width: 100px;
-    }
-
-    .rblogo2{
-        width: 100px;
-    }
-}
-
-.mcs {
-    background-color: #cc1c4a;
-    color: white;
-    transition-duration: 0.2s;
-}
-
-.mcs:hover{  
-    background-color: white;
-    color:#cc1c4a;
-    transition-duration: 0.2s;
-}
-
-/* Calendario Redbull */
-
-.calend {
-    background-color: #213872;
-    padding-top: 20px;
-}
-
-
-.calendario .present {
-    font-family: 'DXS Futura Inline';
-    color: white;
-    transition-duration: 0.2s;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: #182a4b;
-    font-size: 38px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    
-}
-
-.calendario .present:hover{
-    background-color: white;
-    transition-duration: 0.2s;
-    color: black;
-}
-
-
-@media screen and (max-width: 768px) {
-    .calendario .present {
-        font-size: 70px;
-        margin-right:80px;
-        margin-left: 80px;
-        font-family: 'DXS Futura Inline';
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .calendario .present {
-        font-size: 40px;
-        margin-right:30px;
-        margin-left: 30px;
-        font-family: 'DXS Futura Inline';
-    }
-    
-}
-
-@media screen and (max-width: 360px) {
-    .calendario .present {
-        font-size: 20px;
-        margin-right:40px;
-        margin-left: 40px;
-        font-family: 'DXS Futura Inline';
-    }
-}
