@@ -1,0 +1,81 @@
+/* MC BATALLA */
+.rblogo {
+    width: 200px;
+    padding: 10px; 
+    margin: 10px; 
+    float: left;
+}
+
+.rblogo2 {
+    width: 200px;
+    padding: 10px; 
+    margin: 10px;
+    float: right;
+}
+
+.logos:hover  {
+    -webkit-transform:scale(1);
+    transform:scale(0.90);
+    transition-duration: 0.5s;
+}
+.logos {
+    overflow:hidden;
+    transition-duration: 0.5s;
+}
+
+.mcbatalla {
+    font-family: 'DXS Futura Inline';
+    padding-top: 60px;
+    font-size: 100px;
+}
+
+
+@media screen and (max-width: 768px){
+    .mcbatalla {
+        font-family: 'DXS Futura Inline';
+        font-size: 100px;
+        padding-top: 20px;
+    }
+
+    .rblogo{
+        width: 140px;
+    }
+
+    .rblogo2{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .mcbatalla {
+        font-family: 'DXS Futura Inline';
+        font-size: 40px;
+        padding-top: 25px;
+    }
+
+    .rblogo {
+        width: 100px;
+    }
+
+    .rblogo2{
+        width: 100px;
+    }
+}
+
+
+
+
+.container {
+    padding: 0;
+}
+.mcs {
+    background-color: #cc1c4a;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.mcs:hover{  
+    background-color: white;
+    color:#cc1c4a;
+    transition-duration: 0.2s;
+}
