@@ -12,7 +12,7 @@
     font-weight: 400;
 }
 
-body main {
+body .index {
     background: #0b162f;
 }
 
@@ -147,3 +147,9 @@ footer {
 
     background-color: white;
 }
+
+
+
+/* ################## CSS PAGES ###################### */
+
+
