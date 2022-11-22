@@ -124,6 +124,18 @@ hr {
     width: 900px;
 }
 
+@media screen and (max-width: 768px) {
+    .container hr{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .container hr{
+        width: 200px;
+    }
+}
+
 /* video */
 
 .videocentral {
