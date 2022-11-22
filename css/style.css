@@ -126,13 +126,13 @@ hr {
 
 @media screen and (max-width: 768px) {
     .container hr{
-        width: 400px;
+        width: 240px;
     }
 }
 
 @media screen and (max-width: 368px) {
     .container hr{
-        width: 200px;
+        width: 100px;
     }
 }
 
