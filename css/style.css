@@ -152,4 +152,11 @@ footer {
 
 /* ################## CSS PAGES ###################### */
 
+.newsletter {
+    font-family: 'FuturaBQ';
+}
 
+.newsletterp 
+{
+    font-family: 'Poppins', sans-serif;
+}
