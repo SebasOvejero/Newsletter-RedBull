@@ -170,12 +170,33 @@ footer {
 }
 
 .mc img {
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .newsletterp 
 {
     font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .mc .votos img{
+        padding-right:10px;
+        border-radius: 7px;
+    }
+
+
+}
+
+@media screen and (max-width: 368px) {
+    .mc .votos img{
+        padding-right: 60px ;
+    }
+
+    .votacionImg a img{
+        padding-right: 70px;
+    }
+}
+
+
 /* ######## NOTICIAS ############ */
 
 .noticard {
