@@ -179,7 +179,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .mc .votos img{
-        padding-right:10px;
+        padding-right:70px;
         border-radius: 7px;
     }
 
@@ -194,6 +194,12 @@ footer {
     .votacionImg a img{
         padding-right: 90px;
     }
+}
+
+.clearfixCard {
+    padding-left:30px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -229,6 +235,11 @@ footer {
 .tittleMC {
     font-family: 'FuturaBQ';
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.tittleMC:hover {
+    color: #cc1c4a;
 }
 
 .headerMC {
@@ -244,3 +255,22 @@ footer {
 .smallCard {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ######## EVENTOS ######## */
+
+.subtittleMC {
+    font-family: 'Poppins', sans-serif;
+}
+
+.tittleMCs {
+    font-family: 'FuturaBQ';
+    text-decoration: underline;
+    padding-top: 30px;
+} 
+
+.eventMCs {
+    font-family: 'FuturaBQ';
+}
+
+
+
