@@ -188,11 +188,11 @@ footer {
 
 @media screen and (max-width: 368px) {
     .mc .votos img{
-        padding-right: 60px ;
+        padding-right: 90px ;
     }
 
     .votacionImg a img{
-        padding-right: 70px;
+        padding-right: 90px;
     }
 }
 
