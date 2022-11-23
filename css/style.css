@@ -196,3 +196,30 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
+
+.notiHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+/* ######## ARTISTAS ######## */
+
+.tittleMC {
+    font-family: 'FuturaBQ';
+    text-decoration: underline;
+}
+
+.headerMC {
+    text-align:center;
+}
+
+.artistasCard {
+    text-align:center;
+    font-size: 30px;
+    font-family: 'FuturaBQ';
+}
+
+.smallCard {
+    font-family: 'Poppins', sans-serif;
+}
