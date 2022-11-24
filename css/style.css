@@ -153,7 +153,6 @@ footer {
     background-color: white;
     padding-bottom: 5px;
     border-radius: 5px;
-    color: #cc1c4a;
 }
 
 .socials:hover {
@@ -274,10 +273,4 @@ footer {
     font-family: 'FuturaBQ';
 }
 
-.footerDatos {
-    font-size: 13px
-}
 
-footer {
-    background-color: #cc1c4a;
-}
