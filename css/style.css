@@ -157,7 +157,8 @@ footer {
 }
 
 .socials:hover {
-
+    border-radius: 5px;
+    padding-bottom: 5px;
     background-color: white;
 }
 
@@ -273,5 +274,10 @@ footer {
     font-family: 'FuturaBQ';
 }
 
+.footerDatos {
+    font-size: 13px
+}
 
-
+footer {
+    background-color: #cc1c4a;
+}
